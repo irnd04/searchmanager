@@ -13,3 +13,5 @@ target/
 .springBeans
 .sts4-cache
 
+### template ###
+src/main/resources/static/resources/template
