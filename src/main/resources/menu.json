@@ -1,0 +1,299 @@
+[
+  {
+    "id": "i84VvnABTD2ne8Vzmbr5",
+    "parentId": "__root__",
+    "link": "/",
+    "type": "LINK",
+    "order": 1,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "대시보드"
+  },
+  {
+    "id": "jM4VvnABTD2ne8VzmrpU",
+    "parentId": "__root__",
+    "link": null,
+    "type": "HEADING",
+    "order": 2,
+    "icon": null,
+    "name": "사전관리"
+  },
+  {
+    "id": "jc4VvnABTD2ne8Vzmrpy",
+    "parentId": "__root__",
+    "link": null,
+    "type": "HEADING",
+    "order": 3,
+    "icon": null,
+    "name": "테스트"
+  },
+  {
+    "id": "js4VvnABTD2ne8VzmrqI",
+    "parentId": "__root__",
+    "link": null,
+    "type": "HEADING",
+    "order": 4,
+    "icon": null,
+    "name": "로그분석"
+  },
+  {
+    "id": "j84VvnABTD2ne8Vzmrqg",
+    "parentId": "__root__",
+    "link": null,
+    "type": "HEADING",
+    "order": 5,
+    "icon": null,
+    "name": "운영관리"
+  },
+  {
+    "id": "ms4VvnABTD2ne8Vzm7rL",
+    "parentId": "j84VvnABTD2ne8Vzmrqg",
+    "link": "/oper/user",
+    "type": "LINK",
+    "order": 1,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "사용자관리"
+  },
+  {
+    "id": "kM4VvnABTD2ne8Vzmrq5",
+    "parentId": "jM4VvnABTD2ne8VzmrpU",
+    "link": null,
+    "type": "MENU",
+    "order": 1,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "색인사전"
+  },
+  {
+    "id": "kc4VvnABTD2ne8Vzmrrq",
+    "parentId": "jM4VvnABTD2ne8VzmrpU",
+    "link": null,
+    "type": "MENU",
+    "order": 2,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "검색사전"
+  },
+  {
+    "id": "ks4VvnABTD2ne8Vzm7oD",
+    "parentId": "jM4VvnABTD2ne8VzmrpU",
+    "link": null,
+    "type": "MENU",
+    "order": 3,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "로그기반사전"
+  },
+  {
+    "id": "k84VvnABTD2ne8Vzm7ob",
+    "parentId": "jM4VvnABTD2ne8VzmrpU",
+    "link": null,
+    "type": "MENU",
+    "order": 4,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "추천검색어사전"
+  },
+  {
+    "id": "lM4VvnABTD2ne8Vzm7oz",
+    "parentId": "jc4VvnABTD2ne8Vzmrpy",
+    "link": null,
+    "type": "LINK",
+    "order": 1,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "검색테스트"
+  },
+  {
+    "id": "lc4VvnABTD2ne8Vzm7pO",
+    "parentId": "jc4VvnABTD2ne8Vzmrpy",
+    "link": null,
+    "type": "LINK",
+    "order": 2,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "형태소분석"
+  },
+  {
+    "id": "ls4VvnABTD2ne8Vzm7pq",
+    "parentId": "js4VvnABTD2ne8VzmrqI",
+    "link": null,
+    "type": "MENU",
+    "order": 1,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "검색순위"
+  },
+  {
+    "id": "l84VvnABTD2ne8Vzm7qC",
+    "parentId": "js4VvnABTD2ne8VzmrqI",
+    "link": null,
+    "type": "MENU",
+    "order": 2,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "검색변동분석"
+  },
+  {
+    "id": "mM4VvnABTD2ne8Vzm7qb",
+    "parentId": "js4VvnABTD2ne8VzmrqI",
+    "link": null,
+    "type": "MENU",
+    "order": 3,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "검색비율"
+  },
+  {
+    "id": "mc4VvnABTD2ne8Vzm7qy",
+    "parentId": "js4VvnABTD2ne8VzmrqI",
+    "link": null,
+    "type": "LINK",
+    "order": 4,
+    "icon": "nav-main-link-icon si si-energy",
+    "name": "추천검색어"
+  },
+  {
+    "id": "oM4VvnABTD2ne8VznLqA",
+    "parentId": "k84VvnABTD2ne8Vzm7ob",
+    "link": "/dict/recommdict/manual",
+    "type": "LINK",
+    "order": 1,
+    "icon": null,
+    "name": "수동추천검색어"
+  },
+  {
+    "id": "oc4VvnABTD2ne8VznLqZ",
+    "parentId": "k84VvnABTD2ne8Vzm7ob",
+    "link": "/dict/recommdict/autokwdstop",
+    "type": "LINK",
+    "order": 2,
+    "icon": null,
+    "name": "자동추천키워드별불용어"
+  },
+  {
+    "id": "os4VvnABTD2ne8VznLqy",
+    "parentId": "k84VvnABTD2ne8Vzm7ob",
+    "link": "/dict/recommdict/autostop",
+    "type": "LINK",
+    "order": 3,
+    "icon": null,
+    "name": "자동추천불용어"
+  },
+  {
+    "id": "m84VvnABTD2ne8Vzm7ri",
+    "parentId": "kM4VvnABTD2ne8Vzmrq5",
+    "link": "/dict/indexdict/userdict",
+    "type": "LINK",
+    "order": 1,
+    "icon": null,
+    "name": "신조어사전"
+  },
+  {
+    "id": "nM4VvnABTD2ne8VznLoQ",
+    "parentId": "kc4VvnABTD2ne8Vzmrrq",
+    "link": "/dict/searchdict/synonym",
+    "type": "LINK",
+    "order": 1,
+    "icon": null,
+    "name": "동의어사전"
+  },
+  {
+    "id": "nc4VvnABTD2ne8VznLop",
+    "parentId": "kc4VvnABTD2ne8Vzmrrq",
+    "link": "/dict/searchdict/typocorrect",
+    "type": "LINK",
+    "order": 2,
+    "icon": null,
+    "name": "오타교정사전"
+  },
+  {
+    "id": "ns4VvnABTD2ne8VznLpD",
+    "parentId": "kc4VvnABTD2ne8Vzmrrq",
+    "link": "/dict/indexdict/stopword",
+    "type": "LINK",
+    "order": 3,
+    "icon": null,
+    "name": "불용어사전"
+  },
+  {
+    "id": "n84VvnABTD2ne8VznLpg",
+    "parentId": "ks4VvnABTD2ne8Vzm7oD",
+    "link": "/dict/logdict/sugg",
+    "type": "LINK",
+    "order": 1,
+    "icon": null,
+    "name": "자동완성"
+  },
+  {
+    "id": "pc4VvnABTD2ne8Vznbos",
+    "parentId": "l84VvnABTD2ne8Vzm7qC",
+    "link": "/loganal/var/keyword",
+    "type": "LINK",
+    "order": 1,
+    "icon": null,
+    "name": "검색어변동"
+  },
+  {
+    "id": "ps4VvnABTD2ne8VznbpF",
+    "parentId": "l84VvnABTD2ne8Vzm7qC",
+    "link": "/loganal/var/search",
+    "type": "LINK",
+    "order": 2,
+    "icon": null,
+    "name": "검색부하변동"
+  },
+  {
+    "id": "o84VvnABTD2ne8VznLr9",
+    "parentId": "ls4VvnABTD2ne8Vzm7pq",
+    "link": "/loganal/top/top",
+    "type": "LINK",
+    "order": 1,
+    "icon": null,
+    "name": "인기검색어"
+  },
+  {
+    "id": "pM4VvnABTD2ne8VznboV",
+    "parentId": "ls4VvnABTD2ne8Vzm7pq",
+    "link": "/loganal/top/noresult",
+    "type": "LINK",
+    "order": 2,
+    "icon": null,
+    "name": "결과없는 키워드"
+  },
+  {
+    "id": "p84VvnABTD2ne8Vznbpd",
+    "parentId": "mM4VvnABTD2ne8Vzm7qb",
+    "link": "/loganal/ratio/re",
+    "type": "LINK",
+    "order": 1,
+    "icon": null,
+    "name": "결과내 재검색 비율"
+  },
+  {
+    "id": "qM4VvnABTD2ne8Vznbp5",
+    "parentId": "mM4VvnABTD2ne8Vzm7qb",
+    "link": "/loganal/ratio/page",
+    "type": "LINK",
+    "order": 2,
+    "icon": null,
+    "name": "인덱스별 검색비율"
+  },
+  {
+    "id": "qc4VvnABTD2ne8VznbqW",
+    "parentId": "mM4VvnABTD2ne8Vzm7qb",
+    "link": "/loganal/ratio/sort",
+    "type": "LINK",
+    "order": 3,
+    "icon": null,
+    "name": "정렬유형별 검색비율"
+  },
+  {
+    "id": "qs4VvnABTD2ne8Vznbqt",
+    "parentId": "mM4VvnABTD2ne8Vzm7qb",
+    "link": "/loganal/ratio/site",
+    "type": "LINK",
+    "order": 4,
+    "icon": null,
+    "name": "사이트별 검색비율"
+  },
+  {
+  	"id": "dtHwwnABTD2ne8VzIaUw",
+  	"parentId": "j84VvnABTD2ne8Vzmrqg",
+  	"link": "/oper/menu",
+  	"type": "LINK",
+  	"order": 2,
+  	"icon": "nav-main-link-icon si si-energy",
+  	"name": "메뉴관리"
+  }
+]

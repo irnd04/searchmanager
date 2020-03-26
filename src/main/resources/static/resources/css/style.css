@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body
+{
+	font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif !important;
+	font-size: 13px;
+}
+
+ul.nav-main
+{
+	font-weight: 100 !important; 
+}
+
+.nav-main-heading
+{
+	font-weight: 100 !important;
+}
+
+.nav-main-link
+{
+	font-size: .8rem !important;
+}
+
+.breadcrumb.breadcrumb-alt .breadcrumb-item
+{
+	font-weight: 100 !important;
+	font-size: .8rem !important;
+}
+
+.table thead th
+{
+	font-weight: 400 !important;
+}
+
+.block-title
+{
+	font-size: 1.2rem !important;
+}

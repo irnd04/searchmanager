@@ -1,0 +1,18 @@
+spring.http.encoding.charset: UTF-8
+spring.http.encoding.enabled: true
+spring.http.encoding.force: true
+
+spring.messages.basename: message/messages
+spring.messages.cache-duration: 0
+spring.messages.encoding: UTF-8
+spring.messages.fallback-to-system-locale: false
+
+spring.thymeleaf.cache: false
+spring.thymeleaf.encoding: UTF-8
+
+elasticsearch.urls:
+  - localhost:9200
+elasticsearch.search-log-index: searchlog-
+elasticsearch.user-index: users
+
+logging.level.kr.co.mayfarm: DEBUG
